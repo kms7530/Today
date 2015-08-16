@@ -8,6 +8,9 @@ import android.os.Handler;
 
 import com.thepabix.today.R;
 
+import org.androidannotations.annotations.EActivity;
+
+@EActivity()
 public class IntroActivity extends Activity {
     private SharedPreferences pref;
 
